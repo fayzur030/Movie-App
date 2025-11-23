@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 interface Props {
   movie: Movie
+  imageBaseUrl: string
 }
 
 const MovieCard = ({ movie }: Props) => {
